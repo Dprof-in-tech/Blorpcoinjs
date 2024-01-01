@@ -1,0 +1,46 @@
+::-webkit-scrollbar{
+    display: none;
+}
+nav{
+    height: 12vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.navbar-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    width: 40%;
+    background-color: rgba(56, 56, 56, 0.4);
+    border-radius: 18px;
+    margin-left: 5%;
+}
+nav .navbar-middle a{
+    text-align: left;
+    padding-right: 1rem;
+}
+
+.navbar-right{
+    background-color: rgba(56, 56, 56, 0.4);
+    border: 1px solid silver;
+    border-radius: 18px;
+    padding: 0.9rem;
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
